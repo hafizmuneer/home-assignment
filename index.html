@@ -1,12 +1,342 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home asssignment</title>
+    <title>Cricket Arena</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-      <h1>HOME ASSIGNMENT</h1>
+<!-- 
+    <header>
+        <h1>🏏 Cricket Arena</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#about">About</a>
+        </nav>
+        <button id="cartBtn">🛒 Cart (<span id="cartCount">0</span>)</button>
+    </header>
+
+    <section class="hero" id="home">
+        <h2>Gear Up For Cricket!</h2>
+        <p>Play Like A Champion. Shop Like A Pro!</p>
+        <button onclick="document.getElementById('shop').scrollIntoView()">
+            Shop Now →
+        </button>
+    </section>
+
+    <main id="shop">
+
+        <h2>🏆 Our Cricket Products</h2>
+
+        <input type="text" id="search" placeholder="Search cricket products...">
+
+        <select id="category">
+            <option value="all">All Products</option>
+            <option value="bats">Bats</option>
+            <option value="balls">Balls</option>
+            <option value="gloves">Gloves</option>
+            <option value="helmets">Helmets</option>
+            <option value="jerseys">Jerseys</option>
+        </select>
+
+        <div class="products" id="products"></div>
+
+    </main>
+
+    <section class="cart-section">
+        <h2>🛒 Your Cricket Kit Bag</h2>
+        <div id="cart"></div>
+        <h3>Total: Rs. <span id="total">0</span></h3>
+        <button id="checkout">Checkout</button>
+    </section>
+
+    <footer id="about">
+        <h2>Cricket Arena 🏏</h2>
+        <p>Made with ❤️ for Cricket Lovers</p>
+        <p>Eat • Sleep • Cricket • Repeat</p>
+    </footer> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stitch Craft | Digitizing Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="#home" class="logo">STITCH<span>CRAFT.</span></a>
+
+        <nav id="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#careers">Careers</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="nav-btn">Get A Quote ↗</a>
+        <button class="menu-btn" id="menuBtn">☰</button>
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="tag">CREATIVE EMBROIDERY SOLUTIONS</p>
+
+            <h1>Turning Art Into
+                <span>Beautiful Stitches.</span>
+            </h1>
+
+            <p class="hero-text">
+                Professional embroidery digitizing and vector art
+                services that bring your creative ideas to life.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#services" class="primary-btn">Explore Services ↗</a>
+                <a href="#portfolio" class="outline-btn">View Portfolio</a>
+            </div>
+
+            <div class="stats">
+                <div>
+                    <h2>100%</h2>
+                    <p>Creative Focus</p>
+                </div>
+                <div>
+                    <h2>24/7</h2>
+                    <p>Online Support</p>
+                </div>
+                <div>
+                    <h2>PRO</h2>
+                    <p>Design Quality</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-art">
+            <div class="art-circle"></div>
+            <div class="art-card">
+                <span>✳</span>
+                <h2>CREATIVITY</h2>
+                <p>Stitched With Precision</p>
+            </div>
+            <div class="floating-text">DESIGN • STITCH • CREATE</div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+
+    <section class="section about" id="about">
+        <div class="section-label">01 / ABOUT US</div>
+
+        <div class="about-content">
+            <div>
+                <h2>What Is Embroidery <span>Digitizing?</span></h2>
+            </div>
+
+            <div>
+                <p>
+                    Embroidery digitizing is the process of converting
+                    artwork, logos and images into digital stitch files
+                    that embroidery machines can read.
+                </p>
+                <p>
+                    Every stitch, direction and design detail matters.
+                    We combine creativity with technology to create
+                    beautiful embroidery results.
+                </p>
+                <a href="#services" class="text-link">Discover Our Services →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+
+    <section class="section services" id="services">
+        <div class="section-label">02 / WHAT WE DO</div>
+
+        <h2 class="section-title">Our Creative <span>Services</span></h2>
+
+        <div class="service-grid">
+
+            <div class="service-card">
+                <div class="service-icon">✳</div>
+                <h3>Logo Digitizing</h3>
+                <p>Convert business logos into embroidery-ready designs.</p>
+                <span>01 — SERVICE</span>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">✺</div>
+                <h3>3D Puff Digitizing</h3>
+                <p>Create raised embroidery effects for caps and apparel.</p>
+                <span>02 — SERVICE</span>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">✎</div>
+                <h3>Vector Art</h3>
+                <p>Clean and scalable vector artwork for printing and design.</p>
+                <span>03 — SERVICE</span>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">✿</div>
+                <h3>Custom Designs</h3>
+                <p>Creative embroidery patterns made for different projects.</p>
+                <span>04 — SERVICE</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+
+    <section class="section portfolio" id="portfolio">
+        <div class="section-label">03 / OUR WORK</div>
+
+        <h2 class="section-title">Creative <span>Portfolio</span></h2>
+
+        <div class="portfolio-grid">
+            <div class="portfolio-card design-one">
+                <span>✿</span>
+                <h3>Floral Embroidery</h3>
+                <p>Decorative Design</p>
+            </div>
+
+            <div class="portfolio-card design-two">
+                <span>✺</span>
+                <h3>Logo Digitizing</h3>
+                <p>Brand Identity</p>
+            </div>
+
+            <div class="portfolio-card design-three">
+                <span>✳</span>
+                <h3>Creative Patterns</h3>
+                <p>Custom Artwork</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CAREERS -->
+
+    <section class="section careers" id="careers">
+        <div class="section-label">04 / CAREER OPPORTUNITIES</div>
+
+        <h2 class="section-title">Build Your Future <span>With Creativity.</span></h2>
+
+        <p class="career-intro">
+            Explore career paths in embroidery digitizing, graphic design
+            and creative artwork. Learn the skills and build a strong portfolio.
+        </p>
+
+        <div class="job-grid">
+
+            <div class="job-card">
+                <span class="job-type">LEARNING PATH</span>
+                <h3>Junior Embroidery Digitizer</h3>
+                <p>Learn stitch types, design setup and basic digitizing workflow.</p>
+                <div class="skills">Beginner · Embroidery Basics</div>
+                <button class="apply-btn" data-role="Junior Embroidery Digitizer">
+                    Apply / Learn More ↗
+                </button>
+            </div>
+
+            <div class="job-card">
+                <span class="job-type">SKILL PATH</span>
+                <h3>Wilcom Digitizer</h3>
+                <p>Develop skills in logo digitizing, stitch density and design editing.</p>
+                <div class="skills">Intermediate · Wilcom</div>
+                <button class="apply-btn" data-role="Wilcom Digitizer">
+                    Apply / Learn More ↗
+                </button>
+            </div>
+
+            <div class="job-card">
+                <span class="job-type">CREATIVE PATH</span>
+                <h3>Vector Artist</h3>
+                <p>Learn vector illustration, logo creation and artwork editing.</p>
+                <div class="skills">Creative · Vector Design</div>
+                <button class="apply-btn" data-role="Vector Artist">
+                    Apply / Learn More ↗
+                </button>
+            </div>
+
+        </div>
+
+        <p class="notice">
+            Note: These are sample career pathways, not confirmed vacancies.
+            Check an employer's official listing for actual openings and requirements.
+        </p>
+    </section>
+
+    <!-- APPLICATION FORM -->
+
+    <section class="section contact" id="contact">
+        <div class="section-label">05 / GET IN TOUCH</div>
+
+        <div class="contact-grid">
+            <div>
+                <h2>Let's Create Something <span>Beautiful.</span></h2>
+                <p>
+                    Have a project idea or want to learn about a career
+                    in digitizing? Send us a message.
+                </p>
+                <p class="contact-email">hello@stitchcraft.com</p>
+            </div>
+
+            <form id="applicationForm">
+                <h3>Career / Project Inquiry</h3>
+
+                <input type="text" id="name" placeholder="Your Name" required>
+
+                <input type="email" id="email" placeholder="Email Address" required>
+
+                <select id="role" required>
+                    <option value="">Select Interest</option>
+                    <option>Junior Embroidery Digitizer</option>
+                    <option>Wilcom Digitizer</option>
+                    <option>Vector Artist</option>
+                    <option>Project Inquiry</option>
+                </select>
+
+                <textarea id="message" placeholder="Tell us about your interest..." required></textarea>
+
+                <button type="submit" class="primary-btn">Submit Inquiry ↗</button>
+
+                <p id="formMessage"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#home" class="logo">STITCH<span>CRAFT.</span></a>
+        <p>Creativity in Every Stitch. © 2026 Stitch Craft.</p>
+        <a href="#home">Back to Top ↑</a>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
 
     <script src="app.js"></script>
 </body>
